@@ -1,20 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import OpacityWithTiming from "./components/opcatiy_with_timing";
+// import AnimateScaleAndBorderRadius from "./components/animate_scale_and_border_radius";
+import WithRepeat from "./components/with_repeat";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  // return <OpacityWithTiming />;
+  // return <AnimateScaleAndBorderRadius />;
+  return <WithRepeat />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
